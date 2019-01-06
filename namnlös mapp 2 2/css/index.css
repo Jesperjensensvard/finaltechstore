@@ -1,0 +1,878 @@
+/* iphone 5 / SE */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+    .nav{
+        color: #FFFFFF;
+        height: 4em;
+        background-color: #212121;
+        margin-left: 0; 
+        position: fixed;  
+        z-index: 1000;
+       
+   }
+   .techStoreLogo{
+       font-size: 2em;
+       margin-top: 0.2em;
+       color: #FFFFFF;
+       margin-left: 0.5em;
+       
+   }
+
+   #infromation{
+       font-size: 12px;
+       margin-left: 1em;
+       margin-right: 1em;
+   }
+
+   .shoppingIconHeader{
+       width: 2em;
+       height: 2em;
+   }
+   
+   
+   .shoppingicon{
+       position: relative;
+       bottom: -2em;
+       left: 2.5em;
+       transform: scale(1.5);
+   }
+   
+   #clicks {
+       position: relative;
+       bottom: -1.7em;
+       left: 1.5em;
+       
+   }
+   
+   #clearCart{
+       position: relative;
+       bottom: -1.7em;
+       left: 1.2em;
+       color: #FFFFFF;
+   }
+   .noMarginRight{
+       margin-right: 0 !important;
+       
+   }
+   
+   #showUserName{
+       display: none;
+   }
+   
+   .loggInButton2{
+      display: none !important;
+       
+   }
+   
+   #loggainknapp{
+       display: none;
+   }
+
+/* products */
+   #mainpage {
+       position: relative;
+       top: 6em;
+   }
+
+   p {
+       font-weight: bold;
+   }
+   
+
+   img {
+       width: 30%;
+       height: 50%
+   }
+
+   .white{
+       color: #FFFFFF
+
+   }
+
+   .FullscreenDisplayItem{
+       text-align: center;
+       height: 100vh;
+   }
+
+   .cartClicked{
+       display: inline-block;
+
+   }
+   ul{
+       padding: 0;
+       height: 100%;
+       
+   }
+
+   #button {
+    color: #FFFFFF;
+    background-color: #5596F5;
+    border-radius: 5px; 
+    padding-left: 3em;
+    height: 2.5em !important;    
+    } 
+
+    #buttonIcon {
+    position: relative;
+    right: 11.5em;
+
+    }
+   li{
+       list-style: none;
+       width: 100%;
+ 
+   }
+   
+}
+
+/* iPhoneX */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (orientation : portrait) {
+
+    #mainpage {
+        position: relative;
+        top: 6em;
+    }
+
+    p {
+        font-weight: bold;
+    }
+    
+
+    img {
+        width: 25%;
+        height: 45% !important;
+    }
+
+    .white{
+        color: #FFFFFF
+
+    }
+
+    .FullscreenDisplayItem{
+        text-align: center;
+        height: 100vh;
+    }
+
+    .cartClicked{
+        display: inline-block;
+
+    }
+    ul{
+        padding: 0;
+        height: 85% !important;
+        
+    }
+
+    #button {
+        color: #FFFFFF;
+        background-color: #5596F5;
+        border-radius: 5px;     
+    } 
+
+    li{
+        list-style: none;
+        width: 100%;
+        
+  
+    }
+    
+}
+
+/*iPhone 6/7/8 Plus*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+    img {
+        width: 42% !important;
+        height: 50% !important;
+    }
+    .shoppingicon{
+        position: relative;
+        bottom: -2em;
+        left: 9em !important;
+        transform: scale(1.5);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.6em;
+        left: 8em !important;
+        
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1.7em;
+        left: 7.4em !important;
+        color: #FFFFFF;
+    }
+
+}
+
+/* Galaxy S5 */
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) 
+and (orientation : portrait) {
+    img {
+        width: 42% !important;
+        height: 44% !important;
+    }
+    .shoppingicon{
+        position: relative;
+        bottom: -2em;
+        left: 6em !important;
+        transform: scale(1.5);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.6em;
+        left: 5em !important;
+        
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1.7em;
+        left: 4.4em !important;
+        color: #FFFFFF;
+    }
+
+    #button {
+        color: #FFFFFF;
+        background-color: #5596F5;
+        border-radius: 5px; 
+        padding-left: 3em;
+        height: 2.5em !important;    
+    } 
+ 
+    #buttonIcon {
+     position: relative;
+     right: 11.5em;
+ 
+    }
+
+ }
+
+
+/* pixel 2 XL */
+@media only screen 
+and (min-device-width : 411px) 
+and (max-device-width : 823px) 
+and (orientation : portrait) { 
+    img {
+        width: 42% !important;
+        height: 50% !important;
+    }
+    .shoppingicon{
+        position: relative;
+        bottom: -2em;
+        left: 9em !important;
+        transform: scale(1.5);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.6em;
+        left: 8em !important;
+        
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1.7em;
+        left: 7.4em !important;
+        color: #FFFFFF;
+    }
+
+}
+
+/* iphone 6,7,8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+   
+
+    .nav {
+         color: #FFFFFF;
+         height: 4em;
+         background-color: #212121;
+         margin-left: 0; 
+         position: fixed;  
+         z-index: 1000;
+        
+    }
+    .techStoreLogo{
+        font-size: 2em;
+        margin-top: 0.2em;
+        color: #FFFFFF;
+        margin-left: 0.5em;
+        
+    }
+
+    #infromation{
+        font-size: 12px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .shoppingIconHeader{
+        width: 2em;
+        height: 2em;
+    }
+    
+    
+    .shoppingicon{
+        position: relative;
+        bottom: -2em;
+        left: 6.5em;
+        transform: scale(1.5);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.6em;
+        left: 5.5em;
+        
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1.7em;
+        left: 5em;
+        color: #FFFFFF;
+    }
+    .noMarginRight{
+        margin-right: 0 !important;
+        
+    }
+    
+    #showUserName{
+        display: none;
+    }
+    
+    .loggInButton2{
+       display: none !important;
+        
+    }
+    
+    #loggainknapp{
+        display: none;
+    }
+
+/* products */
+    #mainpage {
+        position: relative;
+        top: 6em;
+    }
+
+    p {
+        font-weight: bold;
+    }
+    
+
+    img {
+        width: 42% !important;
+        height: 50%
+    }
+
+    .white {
+        color: #FFFFFF
+
+    }
+
+    .FullscreenDisplayItem{
+        text-align: center;
+        height: 100vh;
+    }
+
+    .cartClicked{
+        display: inline-block;
+
+    }
+    ul { 
+        padding: 0;
+        height: 100%;
+        
+    }
+
+    #button {
+        color: #FFFFFF;
+        background-color: #5596F5;
+        border-radius: 5px; 
+        padding-left: 3em;
+        height: 2.5em !important;    
+    } 
+    #buttonIcon {
+        position: relative;
+        right: 11.2em;
+   
+    }
+
+    li {
+        list-style: none;
+        width: 100%;
+  
+    }
+    
+}
+
+/*ipad*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    
+    .nav {
+        color: #FFFFFF;
+        height: 4em;
+        background-color: #212121;
+        margin-left: 0; 
+        position: fixed;  
+        z-index: 1000;
+   }
+
+   .techStoreLogo{
+       font-size: 2em;
+       margin-top: 0.2em;
+       color: #FFFFFF;
+       margin-left: 0.5em;
+   }
+
+   
+   .shoppingIconHeader{
+       width: 2em;
+       height: 2em;
+    }
+    
+    
+    .shoppingicon{
+        position: relative;
+        bottom: -2em;
+        left: 19em !important;
+        transform: scale(1.5);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.7em;
+        left: 18em !important;    
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1.7em;
+        left: 16em !important;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    
+    #loggainknapp {
+        color: #FFFFFF;
+        font-size: 20px !important;
+        position: relative;
+        left: 11em;
+        top: 1.2em;
+    }
+    
+    .noMarginRight{
+        margin-right: 0 !important;
+        
+    }
+    
+    #showUserName {
+        display: block !important;
+        position: relative;
+        top: 1.2em;
+        left: 1em;
+        z-index: 1;
+    }
+    
+    .loggOutButton2 {
+        margin-left: 0 !important;
+        color: #FFFFFF;
+        background-color: #5596F5;
+        height: 2em;
+        border-radius: 5px;
+        position: relative;
+        top: 1.2em;
+        right:5em;    
+    }
+    
+    /* products */
+    #mainpage {
+        position: relative;
+        top: 8em;
+    }
+    
+    #title {
+         font-size: 3em !important; 
+    }
+    
+    #infromation{
+        font-size: 17px !important;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    img {
+        width: 32% !important;
+        height: 48% !important;
+    }
+
+   #price {
+       font-size: 25px !important;
+   }
+
+   #button {
+     font-size: 17px !important;
+   }
+   
+
+
+   .white {
+       color: #FFFFFF
+
+   }
+
+   .FullscreenDisplayItem{
+       text-align: center;
+       height: 100vh;
+   }
+
+   .cartClicked{
+       display: inline-block;
+
+   }
+   ul { 
+       padding: 0;
+       height: 100%;
+       
+   }
+
+   #button {
+       color: #FFFFFF;
+       background-color: #5596F5;
+       border-radius: 5px; 
+       padding-left: 3em;
+       height: 2.5em !important;    
+   } 
+
+   #buttonIcon {
+    position: relative;
+    right: 11.5em;
+
+   }
+
+   li {
+       list-style: none;
+       width: 100%;
+   }
+
+}
+
+/* ipad pro */
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) 
+and (orientation : portrait) {
+
+    .nav {
+        color: #FFFFFF;
+        height: 5em;
+        background-color: #212121;
+        margin-left: 0; 
+        position: fixed;  
+        z-index: 1000;
+   }
+
+   .techStoreLogo{
+       
+       font-size: 3em;
+       margin-top: 0em;
+       color: #FFFFFF;
+       margin-left: 0.5em;
+   }
+    
+    .shoppingicon{
+        position: relative;
+        bottom: -2em;
+        left: 24em !important;
+        transform: scale(2);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.6em;
+        left: 22em !important;    
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1em;
+        font-size: 22px;
+        left: 15em !important;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    
+    #loggainknapp {
+        color: #FFFFFF;
+        font-size: 20px !important;
+        position: relative;
+        left: 15em;
+        top: 1.2em;
+    }
+    
+    .noMarginRight{
+        margin-right: 0 !important;
+        
+    }
+    
+    #showUserName {
+        display: block !important;
+        position: relative;
+        top: 1.6em;
+        left: 1em;
+        z-index: 1;
+    }
+    
+    .loggOutButton2 {
+        margin-left: 0 !important;
+        color: #FFFFFF;
+        background-color: #5596F5;
+        height: 2em;
+        border-radius: 5px;
+        position: relative;
+        top: 1.6em;
+        right:5em;    
+    }
+    
+    /* products */
+    #mainpage {
+        position: relative;
+        top: 16em !important;
+    }
+    
+    #title {
+         font-size: 4em !important; 
+    }
+    
+    #infromation{
+        font-size: 25px !important;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    img {
+        width: 32% !important;
+        height: 48% !important;
+    }
+
+   #price {
+       font-size: 38px !important;
+   }
+
+
+
+   .white {
+       color: #FFFFFF
+
+   }
+
+   .FullscreenDisplayItem{
+       text-align: center;
+       height: 100vh;
+   }
+
+   .cartClicked{
+       display: inline-block;
+
+   }
+   ul { 
+       padding: 0;
+       height: 90% !important;
+       
+   }
+
+   #button {
+       color: #FFFFFF;
+       background-color: #5596F5;
+       border-radius: 5px; 
+       padding-left: 2em;
+       height: 2.5em !important;    
+   }
+
+   #buttonIcon {
+    position: relative;
+    right: 11.2em;
+
+    }
+
+   li {
+       list-style: none;
+       width: 100%;
+   }
+
+
+}
+
+/* desktop */
+@media only screen 
+and (min-device-width : 1080px) 
+and (max-device-width : 1920px) 
+ {
+    
+    .nav {
+        color: #FFFFFF;
+        height: 4em;
+        background-color: #212121;
+        margin-left: 0; 
+        position: fixed;  
+        z-index: 1000;
+    }
+    
+    .techStoreLogo{
+        position: relative;
+      top: 0.2em;
+       font-size: 2em;
+       margin-top: 0 !important;
+       color: #FFFFFF;
+       margin-left: 0.5em;
+    }
+    
+    .shoppingicon{
+        position: relative;
+        bottom: -1.5em;
+        left: 58em !important;
+        transform: scale(2);
+    }
+    
+    #clicks {
+        position: relative;
+        bottom: -1.6em;
+        left: 57em !important;    
+    }
+    
+    #clearCart{
+        position: relative;
+        bottom: -1em;
+        font-size: 22px;
+        left: 40em !important;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    
+    #loggainknapp {
+        color: #FFFFFF;
+        font-size: 20px !important;
+        position: relative;
+        left: 15em;
+        top: 1.2em;
+    }
+    
+    .noMarginRight{
+        margin-right: 0 !important;
+        
+    }
+    
+    #showUserName {
+        display: block !important;
+        position: relative;
+        top: 1.2em;
+        left: 1em;
+        z-index: 1;
+    }
+    
+    .loggOutButton2 {
+        margin-left: 0 !important;
+        color: #FFFFFF;
+        background-color: #5596F5;
+        height: 2em;
+        border-radius: 5px;
+        position: relative;
+        top: 1.2em;
+        right:5em;    
+    }
+    
+    /* products */
+    #mainpage {
+        position: relative;
+        top: 8em !important;
+    }
+    
+    #title {
+         font-size: 2sem !important; 
+    }
+    
+    #infromation{
+        font-size: 14px !important;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    img {
+        width: 12% !important;
+        height: 28% !important;
+    }
+    
+    
+    #price {
+       font-size: 20px !important;
+    }
+    
+    #buttonIcon {
+        position: relative;
+        right: 11.5em;
+   
+    }
+
+    #button {
+     font-size: 16px !important;
+     padding-left: 3em;
+    }
+    
+    
+    
+    .white {
+       color: #FFFFFF
+    
+    }
+    
+    .FullscreenDisplayItem{
+       text-align: center;
+       height: 100vh;
+    }
+    
+    .cartClicked{
+       display: inline-block;
+    
+    }
+    ul { 
+       padding: 0;
+       height: 100% !important;
+       
+    }
+    
+    #button {
+       color: #FFFFFF;
+       background-color: #5596F5;
+       border-radius: 5px; 
+       height: 2.5em !important;    
+    } 
+    
+    li {
+       list-style: none;
+       width: 100%;
+    }
+
+}    
